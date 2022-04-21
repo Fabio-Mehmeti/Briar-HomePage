@@ -111,6 +111,27 @@ header {
     color: #fff;
 }
 
+/* Sticky navi */
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #F9FAFB;
+    box-shadow: 0 2px 2px #a29b9b;
+    z-index: 9999;
+}
+
+.sticky .main-nav { margin-top: 18px; }
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 16px 0;
+    color: #555;
+}
+
+.sticky .logo { display: none; }
+.sticky .logo-black { display: block; }
 
 /*--------------------------------------------*/
 /* Footer */
