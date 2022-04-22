@@ -3020,7 +3020,7 @@
 }
 
 .ion-navicon-round:before {
-    content: "\f20d"
+    content: "\f20d";
 }
 
 .ion-navigate:before {

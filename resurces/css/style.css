@@ -108,7 +108,7 @@ header {
 
 .mobile-nav-icon i {
     font-size: 200%;
-    color: #fff;
+    color: #000000;
 }
 
 /* Sticky navi */
@@ -132,6 +132,26 @@ header {
 
 .sticky .logo { display: block; }
 
+.ion-navicon-round:before {
+    content: "\f20d";
+}
+.ion-navicon-round:before,
+.ion-close-round:before{
+    display: inline-block;
+    font-family: "Ionicons";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    
+}
+
+.ion-close-round:before {
+    content: "\f129";
+}
 
 /*--------------------------------------------*/
 /* Footer */
@@ -183,14 +203,17 @@ header {
     text-decoration: none;
     
     font-size: 90%;
-    border-bottom: 2px solid transparent;
-    -webkit-transition: border-bottom 0.2s;
-    transition: border-bottom 0.2s;
+    -webkit-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    transform: scale(1.0);
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s;
 }
-
 .social-links li a:hover,
 .social-links li a:active {
-    border-bottom: 2px solid #6B7280;
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
 }
 
 .copyright {
