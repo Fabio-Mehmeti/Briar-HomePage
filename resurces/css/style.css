@@ -203,8 +203,8 @@ header {
     text-align: center;
 }
 .app-screen {
-    height: 461.08px;
-    width: auto;
+    
+    width: 40%;
     margin-top: 80px;
     margin-left: 120px;
     box-shadow: 0 2px 2px #a29b9b;
