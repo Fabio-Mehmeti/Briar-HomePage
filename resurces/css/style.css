@@ -293,9 +293,23 @@ margin: 8px 0px;
 }
 
 .icone {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px;
     width: 48px;
 height: 48px;
+left: 0px;
+top: 0px;
+    background: #95DE2D;
+border-radius: 6px;
+    flex: none;
+order: 0;
+flex-grow: 0;
+margin: 20px 0px;
 }
+    
 
 .dot-patern {
     height: 250px;
