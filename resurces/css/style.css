@@ -130,8 +130,8 @@ header {
     color: #555;
 }
 
-.sticky .logo { display: none; }
-.sticky .logo-black { display: block; }
+.sticky .logo { display: block; }
+
 
 /*--------------------------------------------*/
 /* Footer */
