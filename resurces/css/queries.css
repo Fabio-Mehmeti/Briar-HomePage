@@ -110,7 +110,7 @@
     
     .works-step { margin-bottom: 20px; }
     .works-step:last-of-type { margin-bottom: 20px; }
-    .footer-nav li { display: inline; }
+    .footer-nav li { display: inline; margin-left: 2%; }
     
 }
 
@@ -121,7 +121,7 @@
     section { padding: 25px 0; }
     .contact-form {width: 100%; }
     .footer-nav li { display: inline; margin-left: 2%; }
-    .app-screen { width: 50%; margin-left: 25%; }
+    .app-screen { width: 60%; margin-left: 20%; }
     .social-links li { display: inline; margin-left: 28px;}
 }
 
