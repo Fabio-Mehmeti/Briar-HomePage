@@ -101,7 +101,7 @@ header {
 /* Mobile navi */
 .mobile-nav-icon {
     float: right;
-    margin-top: 30px;
+    margin-top: 25px;
     cursor: pointer;
     display: none;
 }
@@ -126,32 +126,12 @@ header {
 
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
-    padding: 16px 0;
+    padding: 20px 0px;
     color: #555;
 }
 
-.sticky .logo { display: block; }
+.sticky .logo { display: block; margin-top: 5px; }
 
-.ion-navicon-round:before {
-    content: "\f20d";
-}
-.ion-navicon-round:before,
-.ion-close-round:before{
-    display: inline-block;
-    font-family: 'Skin Sansa';
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    text-rendering: auto;
-    line-height: 1;
-    
-}
-
-.ion-close-round:before {
-    content: "\f129";
-}
 
 /*--------------------------------------------*/
 /* Footer */
@@ -360,4 +340,8 @@ margin: 20px 0px;
 .icon-social {
     height: 22px;
     width: auto;
+}
+
+.fa {
+    font-size: 24px;
 }
